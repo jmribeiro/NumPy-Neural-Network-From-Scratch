@@ -67,7 +67,7 @@ def plot(epochs, validation_accuracies, save=False):
     plt.ylabel('Validation Set Accuracy')
     plt.xticks(epochs)
     plt.plot(epochs, validation_accuracies, color="orange")
-    plt.show()
     if save:
         plt.savefig("plot.png")
+    plt.show()
     plt.close()
