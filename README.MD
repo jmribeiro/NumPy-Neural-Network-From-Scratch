@@ -18,3 +18,5 @@ All parameters optimized using the Stochastic Gradient Descent algorithm.
     -learning_rate 0.1
     -l2_penalty 0.0
     -batch_size 32
+
+![Output](https://github.com/jmribeiro/NumPyNeuralNetworkFromScratch/blob/master/plot.png)
